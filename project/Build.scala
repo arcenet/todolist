@@ -13,7 +13,7 @@ object ApplicationBuild extends Build {
   val main = PlayProject(appName, appVersion, appDependencies, mainLang = SCALA).settings( // Add your own project settings here      
   )
 
-  val appDependencies = Seq(
-    "postgresql" % "postgresql" % "8.4-702.jdbc4")
+  //val appDependencies = Seq(
+  //  "postgresql" % "postgresql" % "8.4-702.jdbc4")
 
 }
